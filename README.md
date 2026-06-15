@@ -139,7 +139,7 @@ To add more metrics to the dashboard:
 ## 📸 Screenshots
 
 Screenshots of the dashboard in action:
-[Azure Dashboard](./screenshots/Screenshot 2026-06-15 114150.jpg)
+[Azure Dashboard](./screenshots/Screenshot.jpg)
 
 - Dashboard overview
 - Specific metric trends
