@@ -12,6 +12,15 @@ This repository contains an Azure Portal dashboard template specifically designe
 - **Capacity Tracking** - Volume consumed size percentage
 - **Performance Limits** - Throughput limit alerts and QoS latency delta
 
+## 📸 Screenshots
+
+Screenshots of the dashboard in action:
+![Azure Dashboard](./screenshots/Screenshot.jpg)
+
+- Dashboard overview
+- Specific metric trends
+- Performance scenarios
+
 ## ⚠️ Key Metrics Information
 
 ### IOPS Calculation
@@ -135,15 +144,6 @@ To add more metrics to the dashboard:
 - [ANF Performance Considerations](https://learn.microsoft.com/en-us/azure/azure-netapp-files/performance-benchmarks)
 - [Azure Portal Dashboards Documentation](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
 - [ANF Cache Volumes](https://learn.microsoft.com/en-us/azure/azure-netapp-files/cache-volumes)
-
-## 📸 Screenshots
-
-Screenshots of the dashboard in action:
-[Azure Dashboard](./screenshots/Screenshot.jpg)
-
-- Dashboard overview
-- Specific metric trends
-- Performance scenarios
 
 
 ## ⚙️ Troubleshooting
