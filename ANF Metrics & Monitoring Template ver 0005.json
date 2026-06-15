@@ -1,0 +1,1216 @@
+{
+  "properties": {
+    "lenses": [
+      {
+        "order": 0,
+        "parts": [
+          {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 25,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "TotalThroughput",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Total throughput"
+                          }
+                        }
+                      ],
+                      "title": "Avg Total throughput for all volumes",
+                      "titleKind": 2,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "TotalThroughput",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Total throughput"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Total throughput for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 5,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "WriteThroughput",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Write throughput"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Write throughput for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "WriteThroughput",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Write throughput"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Write throughput for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 6,
+              "y": 5,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "ReadThroughput",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Read throughput"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Read throughput for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "ReadThroughput",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Read throughput"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Read throughput for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 12,
+              "y": 5,
+              "colSpan": 20,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "westeurope",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "VolumeConsumedSizePercentage",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Percentage Volume Consumed Size"
+                          }
+                        }
+                      ],
+                      "title": "Avg Percentage Volume Consumed Size- All volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "westeurope",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "VolumeConsumedSizePercentage",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Percentage Volume Consumed Size"
+                          }
+                        }
+                      ],
+                      "title": "Avg Percentage Volume Consumed Size- All volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      },
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId"
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 9,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "ThroughputLimitReached",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Throughput limit reached"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Throughput limit reached for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "ThroughputLimitReached",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Throughput limit reached"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Throughput limit reached for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 6,
+              "y": 9,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "QosLatencyDelta",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "QoS latency delta"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg QoS latency delta for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "QosLatencyDelta",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "QoS latency delta"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg QoS latency delta for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 12,
+              "y": 9,
+              "colSpan": 20,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "TotalIops",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Total iops"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Total iops for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 13,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "AverageWriteLatency",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Average write latency"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Average write latency for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "AverageWriteLatency",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Average write latency"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Average write latency for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 6,
+              "y": 13,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "AverageReadLatency",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Average read latency"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Average read latency for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                },
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "region": "INSERT_REGION_HERE",
+                            "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                            "subscription": {
+                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                            }
+                          },
+                          "name": "AverageReadLatency",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
+                          "metricVisualization": {
+                            "displayName": "Average read latency"
+                          }
+                        }
+                      ],
+                      "grouping": {
+                        "dimension": "Microsoft.ResourceId",
+                        "sort": 2,
+                        "top": 20
+                      },
+                      "title": "Avg Average read latency for all volumes",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        },
+        "filterLocale": {
+          "value": "en-us"
+        },
+        "filters": {
+          "value": {
+            "MsPortalFx_TimeRange": {
+              "model": {
+                "format": "utc",
+                "granularity": "auto",
+                "relative": "24h"
+              },
+              "displayCache": {
+                "name": "UTC Time",
+                "value": "Past 24 hours"
+              },
+              "filteredPartIds": [
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185123",
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185125",
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185127",
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185129",
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a18512b",
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a18512d",
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a18512f",
+                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185131"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "ANF Metrics & Monitoring",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "ANF Metrics & Monitoring"
+  },
+  "apiVersion": "2022-12-01-preview"
+}
