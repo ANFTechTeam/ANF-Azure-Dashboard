@@ -14,7 +14,7 @@ This repository contains an Azure Portal dashboard template specifically designe
 
 ## 📸 Screenshot
 
-Screenshot of the dashboard in action:
+Screenshot of the dashboard in action: **NB.** New screenshot to follow with better clarity.
 ![Azure Dashboard](./screenshots/Screenshot.jpg)
 
 
