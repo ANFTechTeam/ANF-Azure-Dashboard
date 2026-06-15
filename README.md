@@ -12,9 +12,9 @@ This repository contains an Azure Portal dashboard template specifically designe
 - **Capacity Tracking** - Volume consumed size percentage
 - **Performance Limits** - Throughput limit alerts and QoS latency delta
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-Screenshots of the dashboard in action:
+Screenshot of the dashboard in action:
 ![Azure Dashboard](./screenshots/Screenshot.jpg)
 
 
