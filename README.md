@@ -140,7 +140,6 @@ To add more metrics to the dashboard:
 - [Azure NetApp Files Metrics](https://learn.microsoft.com/en-us/azure/azure-netapp-files/metrics)
 - [ANF Performance Considerations](https://learn.microsoft.com/en-us/azure/azure-netapp-files/performance-benchmarks)
 - [Azure Portal Dashboards Documentation](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
-- [ANF Cache Volumes](https://learn.microsoft.com/en-us/azure/azure-netapp-files/cache-volumes)
 
 
 ## ⚙️ Troubleshooting
