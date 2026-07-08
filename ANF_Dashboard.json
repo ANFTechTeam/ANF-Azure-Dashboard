@@ -490,7 +490,7 @@
                       "metrics": [
                         {
                           "resourceMetadata": {
-                            "region": "westeurope",
+                            "region": "INSERT_REGION_HERE",
                             "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
                             "subscription": {
                               "subscriptionId": "INSERT_SUB_ID_HERE"
@@ -1208,7 +1208,7 @@
   },
   "name": "ANF Metrics & Monitoring",
   "type": "Microsoft.Portal/dashboards",
-  "location": "INSERT LOCATION",
+  "location": "INSERT_LOCATION",
   "tags": {
     "hidden-title": "ANF Metrics & Monitoring"
   },
