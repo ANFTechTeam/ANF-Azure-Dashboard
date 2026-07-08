@@ -78,7 +78,6 @@ The dashboard imports successfully through the Azure Portal and is currently the
 5. Upload the file.
 6. Review the dashboard preview.
 7. Click **Save**
-```
 
 #### 3. **Access Your Dashboard**
 
