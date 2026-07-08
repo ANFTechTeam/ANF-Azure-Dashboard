@@ -28,7 +28,13 @@ Actual IOPS = Dashboard IOPS Value × 300
 ```
 
 ### Resource Scoping
-The dashboard is scoped at the **resource provider level** (`microsoft.netapp/netappaccounts/capacitypools/volumes`), which means:
+The dashboard automatically discovers Azure NetApp Files volumes using the resource provider scope:
+
+```text
+microsoft.netapp/netappaccounts/capacitypools/volumes
+```
+This means:
+
 - ✅ New volumes are automatically included
 - ✅ Removed volumes are automatically excluded
 - ✅ No manual tile edits required when infrastructure changes
@@ -37,8 +43,8 @@ The dashboard is scoped at the **resource provider level** (`microsoft.netapp/ne
 
 ### Prerequisites
 - Azure subscription with ANF resources deployed
-- Azure PowerShell modules installed
 - Access to at least one ANF volume
+- Downloaded `ANF_Dashboard.json` file from the repository
 
 ### Setup Instructions
 
@@ -62,26 +68,16 @@ Find:    INSERT_LOCATION
 Replace: westeurope
 ```
 
-#### 2. **Import the Dashboard via Azure PowerShell**
+#### 2. **Azure Portal Dashboard Import**
+The dashboard imports successfully through the Azure Portal and is currently the preferred deployment approach.
 
-```powershell
-# Connect to Azure
-Connect-AzAccount
-
-# Set your subscription
-Set-AzContext -SubscriptionId "YOUR_SUBSCRIPTION_ID"
-
-# Import the dashboard
-New-AzPortalDashboard -DashboardPath "ANF_Dashboard.json" -ResourceGroupName "YOUR_RESOURCE_GROUP"
-```
-
-**Alternative method** - Import via Azure CLI:
-
-```bash
-az portal dashboard create \
-  --resource-group YOUR_RESOURCE_GROUP \
-  --name "ANF Metrics & Monitoring" \
-  --input-path ANF-Dashboard.json
+1. Sign in to the Azure Portal.
+2. Navigate to **Dashboard**.
+3. Select **Upload** from the dashboard toolbar.
+4. Browse to the updated `ANF_Dashboard.json` file.
+5. Upload the file.
+6. Review the dashboard preview.
+7. Click **Save**
 ```
 
 #### 3. **Access Your Dashboard**
