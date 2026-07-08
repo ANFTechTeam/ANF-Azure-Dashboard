@@ -130,7 +130,7 @@ Click on any tile's time selector to adjust the rolling window.
 
 To add more metrics to the dashboard:
 
-1. Edit `ANF-Dashboard.json`
+1. Edit `ANF_Dashboard.json`
 2. Add new metric objects under the `metrics` array
 3. Reference available [ANF metrics](https://learn.microsoft.com/en-us/azure/azure-netapp-files/metrics)
 4. Re-import the dashboard
