@@ -171,7 +171,7 @@ If you encounter issues or would like detailed walkthrough:
 | File | Purpose |
 |------|---------|
 | `README.md` | This documentation file |
-| `ANF-Dashboard.json` | Azure Portal dashboard template (requires customization) |
+| `ANF_Dashboard.json` | Azure Portal dashboard template (requires customization) |
 | `screenshots/` | Dashboard screenshots and usage examples |
 
 ## ⚠️ Disclaimer
