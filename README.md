@@ -44,7 +44,7 @@ The dashboard is scoped at the **resource provider level** (`microsoft.netapp/ne
 
 #### 1. **Edit the Dashboard JSON**
 
-Open `ANF-Dashboard.json` in Visual Studio Code and search & replace:
+Open `ANF_Dashboard.json` in Visual Studio Code and search & replace:
 
 - `INSERT_SUB_ID_HERE` → Your Azure Subscription ID
 - `INSERT_REGION_HERE` → Your Azure region (e.g., `eastus`, `westeurope`)
@@ -72,7 +72,7 @@ Connect-AzAccount
 Set-AzContext -SubscriptionId "YOUR_SUBSCRIPTION_ID"
 
 # Import the dashboard
-New-AzPortalDashboard -DashboardPath "ANF-Dashboard.json" -ResourceGroupName "YOUR_RESOURCE_GROUP"
+New-AzPortalDashboard -DashboardPath "ANF_Dashboard.json" -ResourceGroupName "YOUR_RESOURCE_GROUP"
 ```
 
 **Alternative method** - Import via Azure CLI:
