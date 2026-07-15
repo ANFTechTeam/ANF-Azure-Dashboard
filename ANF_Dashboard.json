@@ -59,13 +59,6 @@
                         "dimension": "Microsoft.ResourceId",
                         "sort": 2,
                         "top": 20
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -195,13 +188,6 @@
                             "axisType": 1
                           }
                         }
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -331,13 +317,6 @@
                             "axisType": 1
                           }
                         }
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -431,18 +410,21 @@
                             "region": "INSERT_REGION_HERE",
                             "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
                             "subscription": {
-                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                              "subscriptionId": "INSERT_SUB_ID_HERE",
+                              "displayName": "WWFCO CSA EMEA Subscription",
+                              "uniqueDisplayName": "WWFCO CSA EMEA Subscription"
                             }
                           },
                           "name": "VolumeConsumedSizePercentage",
                           "aggregationType": 4,
                           "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
                           "metricVisualization": {
-                            "displayName": "Percentage Volume Consumed Size"
+                            "displayName": "Percentage Volume Consumed Size",
+                            "resourceDisplayName": "WWFCO CSA EMEA Subscription"
                           }
                         }
                       ],
-                      "title": "Avg Percentage Volume Consumed Size- All volumes",
+                      "title": "Avg Percentage Volume Consumed Size for WWFCO CSA EMEA Subscription in West Europe region  by ResourceId",
                       "titleKind": 1,
                       "visualization": {
                         "chartType": 2,
@@ -465,13 +447,6 @@
                       },
                       "grouping": {
                         "dimension": "Microsoft.ResourceId"
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -493,18 +468,21 @@
                             "region": "INSERT_REGION_HERE",
                             "resourceType": "microsoft.netapp/netappaccounts/capacitypools/volumes",
                             "subscription": {
-                              "subscriptionId": "INSERT_SUB_ID_HERE"
+                              "subscriptionId": "INSERT_SUB_ID_HERE",
+                              "displayName": "WWFCO CSA EMEA Subscription",
+                              "uniqueDisplayName": "WWFCO CSA EMEA Subscription"
                             }
                           },
                           "name": "VolumeConsumedSizePercentage",
                           "aggregationType": 4,
                           "namespace": "microsoft.netapp/netappaccounts/capacitypools/volumes",
                           "metricVisualization": {
-                            "displayName": "Percentage Volume Consumed Size"
+                            "displayName": "Percentage Volume Consumed Size",
+                            "resourceDisplayName": "WWFCO CSA EMEA Subscription"
                           }
                         }
                       ],
-                      "title": "Avg Percentage Volume Consumed Size- All volumes",
+                      "title": "Avg Percentage Volume Consumed Size for WWFCO CSA EMEA Subscription in West Europe region  by ResourceId",
                       "titleKind": 1,
                       "visualization": {
                         "chartType": 2,
@@ -599,13 +577,6 @@
                             "axisType": 1
                           }
                         }
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -735,13 +706,6 @@
                             "axisType": 1
                           }
                         }
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -944,13 +908,6 @@
                             "axisType": 1
                           }
                         }
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -1080,13 +1037,6 @@
                             "axisType": 1
                           }
                         }
-                      },
-                      "timespan": {
-                        "relative": {
-                          "duration": 86400000
-                        },
-                        "showUTCTime": false,
-                        "grain": 1
                       }
                     }
                   },
@@ -1191,14 +1141,15 @@
                 "value": "Past 24 hours"
               },
               "filteredPartIds": [
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185123",
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185125",
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185127",
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185129",
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a18512b",
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a18512d",
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a18512f",
-                "StartboardPart-MonitorChartPart-06d5f3f5-25b6-4d8d-b474-9ef41a185131"
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af457d",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af4581",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af4583",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af4585",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af4587",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af4589",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af458b",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af458d",
+                "StartboardPart-MonitorChartPart-52d18d16-ee7e-4ad8-b898-185a02af458f"
               ]
             }
           }
@@ -1208,7 +1159,7 @@
   },
   "name": "ANF Metrics & Monitoring",
   "type": "Microsoft.Portal/dashboards",
-  "location": "INSERT_LOCATION",
+  "location": "Insert location here",
   "tags": {
     "hidden-title": "ANF Metrics & Monitoring"
   },
