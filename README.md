@@ -1,6 +1,6 @@
 # Azure NetApp Files Dashboard
 
-A comprehensive Azure Portal dashboard for monitoring Azure NetApp Files (ANF) metrics and performance.
+Azure NetApp Files Azure Portal dashboard providing capacity, throughput, IOPS, latency, and performance monitoring with automatic volume discovery
 
 ## 📊 Overview
 
