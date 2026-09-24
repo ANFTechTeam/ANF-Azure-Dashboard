@@ -100,8 +100,8 @@ The dashboard imports successfully through the Azure Portal and is currently the
 | Metric | Description | Unit |
 |--------|-------------|------|
 | **Volume Consumed %** | Percentage of provisioned capacity in use | % |
-| **Throughput Limit Reached** | Events when throughput limits exceeded | Count |
-| **QoS Latency Delta** | Quality of Service latency variance | ms |
+| **Throughput Limit Reached** | Events when throughput limit exceeded | Count |
+| **QoS Latency Delta** | Quality of Service latency variance: The metric reflects the latency added by the throttling process| ms |
 
 ### Latency Metrics
 | Metric | Description | Unit |
@@ -135,6 +135,21 @@ To add more metrics to the dashboard:
 - [Azure NetApp Files Metrics](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics)
 - [ANF Performance Considerations](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-performance-considerations)
 - [Azure Portal Dashboards Documentation](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
+
+## 📈 Usage
+
+QoS Latency Delta:
+
+- The service injects latency to throttle to meet throughput allocated.
+- During this 5-minute interval, ANF QoS enforcement introduced an average additional latency to the subset of I/O operations that were subject to throttling.
+- The metric does not reveal the number of affected I/Os or the distribution of those delays.
+- It is not average latency across all I/Os.
+- Some I/Os pass immediately.  Some are queued/delayed.
+- Collate and calculate total I/Os for the same time period to estimate the impact. 
+
+Throughput Limit Reached:
+
+-If the metric displays 1, the volume has reached its throughput, and throughput for this volume will be throttled. This could once within the 5m rollup, or multiple occurrences. 
 
 
 ## ⚙️ Troubleshooting
