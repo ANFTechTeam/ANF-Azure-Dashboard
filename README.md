@@ -127,12 +127,12 @@ To add more metrics to the dashboard:
 
 1. Edit `ANF_Dashboard.json`
 2. Add new metric objects under the `metrics` array
-3. Reference available [ANF metrics](https://learn.microsoft.com/en-us/azure/azure-netapp-files/metrics)
+3. Reference available [ANF metrics](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics)
 4. Re-import the dashboard
 
 ## 📚 References
 
-- [Azure NetApp Files Metrics](https://learn.microsoft.com/en-us/azure/azure-netapp-files/metrics)
+- [Azure NetApp Files Metrics](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics)
 - [ANF Performance Considerations](https://learn.microsoft.com/en-us/azure/azure-netapp-files/performance-benchmarks)
 - [Azure Portal Dashboards Documentation](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
 
